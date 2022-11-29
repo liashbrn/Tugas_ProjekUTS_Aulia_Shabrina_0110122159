@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Universitas Bina Liaris</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/binaliaris.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/binaliaris.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Login Mahasiswa</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registrasi</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Nama" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Lupa Password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Nama" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Simpan &amp; Lanjutkan
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Batalkan</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+
+    <!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/BINa_liaris.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+						<li class="nav-item active"><a class="nav-link" href="about.html">Tentang Kami</a></li>
+						<li class="nav-item"><a class="nav-link" href="course-grid-4.html">Fakultas</a></li>
+						<li class="nav-item"><a class="nav-link" href="blog-single.html">Blog</a></li>
+					</ul>
+                </div>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Log In</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>Tentang Universitas Bina Liaris<span class="m_1"></span></h1>
+		</div>
+	</div>
+	
+    <div id="overviews" class="section lb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>PROFIL</h3>
+                    <p class="lead"></p>
+                </div>
+            </div><!-- end title -->
+        
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box te">
+                        <h4><p>Universitas Bina Liaris merupakan perguruan tinggi negeri yang didirikan pada tanggal 29 februari 2002 di Jakarta Selatan. Universitas Bina Liaris awalnya adalah cabang dari Universitas Swasta, yaitu sebagai Fakultas Hukum dan Fakultas Ekonomi. Kedua fakultas tersebut tidak berkembang dengan cukup baik sehingga pada tanggal 10 Mei 2002, dilakukan pertemuan yang kemudian mencetuskan gagasan untuk mendirikan sebuah Universitas Kotapraja (Gemeentelijke Universit).
+                            
+                            Untuk mewujudkan hal tersebut, pada tanggal 29 Mei 2002, dibentuk Yayasan Perguruan Tinggi Jakarta Selatan. Pada tanggal 1 Juli 2003 yayasan ini membuka Perguruan Tinggi Hukum dan Pengetahuan Masyarakat (PTHPM). PTHPM resmi berubah nama menjadi Universitas Kotapraja Jakarta Selatan pada peringatan hari jadinya yang ketiga, tepatnya tanggal 29 februari 2004. Kemudian pada peringatan hari jadi di tahun berikutnya, universitas ini mengalami perubahan nama menjadi Universitas Bina Liaris.
+                            
+                            Universitas Bina Liaris mendapatkan status sebagai perguruan tinggi negeri secara bertahap, yang diawali dengan Fakultas Pertanian dan Fakultas Kedokteran Hewan dan Peternakan pada tanggal 1 Agustus 2007. UBL beserta seluruh fakultasnya resmi mendapatkan status negeri pada tanggal 5 Januari 2009. Tanggal perubahan status tersebut kemudian ditetapkan sebagai hari lahir (Dies Natalis) Universitas Bina Liaris.
+                            
+                            Universitas Bina Liaris kini telah mengalami banyak perkembangan dengan memiliki 18 fakultas dan 240 program studi untuk jenjang vokasi, sarjana, magister, doktor, dokter spesialis, dan profesi. UBL secara konsisten berhasil mejadi salah satu dari lima perguruan tinggi terbaik di Indonesia berdasarkan penilaian resmi Kementerian Riset, Teknologi, dan Perguruan Tinggi (Kemenristekdikti). UBL juga menempati posisi kedua di Indonesia dalam pemeringkatan yang dilakukan oleh lembaga pemeringkatan universitas dunia, Times Higher Education (THE) World University Rankings, tahun 2020.
+                            
+                            Selain itu, Universitas Bina Liaris juga terus melakukan kerja sama dengan berbagai lembaga, baik yang berasal dari dalam maupun luar negeri. Beberapa lembaga yang telah melakukan kerja sama dengan UBL, yaitu Universitas Tulungagung, STIKIP Bumi Persada Lhoksumawe, Dirjen Kekayaan Intelektual Kemenkumham, National Instrument Singapore, Universiti Kebangsaan Malaysia, National Pingtung University, Ritsumeikan University, Yamaguchi University, Universitat Leipzig Germany, University of Opole, The University of Antananarivo, dan University of South Australia.</p></h4>
+                        <h2></h2>
+                        <p></p>
+
+                        <a href="#" class="hover-btn-new orange"><span>Selengkapnya</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+	<div class="hmv-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-achievement"></i></div>
+						<h3>Misi</h3>
+						<div class="tr-pa">M</div>
+						<p>
+                            <ol>
+                                <li>Menyelenggarakan pendidikan dan pengajaran yang bermutu</li>
+                                <li>Melaksanakan kegiatan penelitian guna mengembangkan ilmu pengetahuan dan teknologi yang memiliki kemanfaatan baik bagi kepentingan institusi, daerah maupun nasional</li>
+                                <li>Melaksanakan pengabdian kepada masyarakat dalam berbagai bidang baik tingkat daerah maupun nasional</li>
+                                <li>Meningkatkan suasana dan prilaku akademis, agamis dan kebangsaan dilingkungan Universitas</li>
+                                <li>Menjunjung tinggi budaya, tata krama dan bahasa masyarakat lingkungan</li>
+                            </ol>
+                        </p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-eye"></i></div>
+						<h3>Visi</h3>
+						<div class="tr-pa">V</div>
+						<p>Visi Universitas Bina Liaris adalah “Mencapai Universitas Bereputasi Dunia dan Berdampak pada Masyarakat” yang dilandasi oleh Pola Ilmiah Pokok “Bina Mulia Hukum dan Lingkungan Hidup”. Reputasi dunia dibutuhkan untuk keberlanjutan eksistensi Unpad di level internasional dalam menjamin kualitas tridarma perguruan tinggi. Adapun indikator universitas bereputasi dunia adalah sebagai berikut: 
+                            <ol>
+                                <li>Memiliki kemampuan membangun ekosistem pendidikan dan pengajaran, serta penelitian yang menghasilkan sumberdaya manusia kompeten, lulusan unggul (kompeten, kompetitif, berkarakter, dan produktif), dan hasil penelitian yang bereputasi internasional</li>
+                                <li>Memiliki kemampuan untuk membangun sistem kemitraan dengan industri dan bisnis untuk mendukung kualitas dan relevansi kegiatan pengajaran dan penelitian yang berstandar internasional</li>
+                                <li>Memiliki kemampuan untuk cepat melakukan adaptasi dan inovasi menghadapi pengembangan iptek di tingkat internasional</li>
+                                <li>Memiliki kemampuan untuk menerapkan tata kelola yang memenuhi standar internasional dalam melaksanakan tridharma perguruan tinggi dan kegiatan pendukung</li>
+                            </ol>
+                            Universitas yang berdampak pada masyarakat adalah universitas yang dapat meningkatkan kualitas pendidikan tinggi, mendukung pendidikan untuk semua kalangan, mendukung penegakan hukum dan lingkungan hidup, pertumbuhan ekonomi, keamanan sosial dan pelestarian budaya.
+                        </p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-history"></i></div>
+						<h3>Tujuan</h3>
+						<div class="tr-pa">T</div>
+						<p>
+                            <ol>
+                                <li>Menghasilkan lulusan yang unggul dan kompetitif pada berbagai bidang ilmu pengetahuan dan teknologi melalui pendidikan dan pengajaran yang bermutu</li>
+                                <li>Menghasilkan ilmu pengetahuan dan teknologi melalui penelitian yang memperhatikan dan menerapkan nilai humaniora agar memiliki kemanfaatan bagi kemajuan institusi, Daerah maupun Nasional</li>
+                                <li>Terwujudnya pengabdian kepada masyarakat dalam berbagai bidang berbasis penalaran dan karya penelitian yang bermanfaat dalam memajukan kesejahteraan umum dan mencerdaskan kehidupan bangsa baik pada tingkat Daerah maupun Nasional</li>
+                                <li>Terwujudnya suasana dan prilaku akademis, agamis dan kebangsaan dilingkungan Universitas</li>
+                                <li>Terwujudnya budaya, tata krama dan bahasa masyarakat lingkungan</li>
+                            </ol>
+                        </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/parallax_04.jpg');">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Komentar</h3>
+                <p></p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/alma (1).jpg" alt="" class="img-fluid">
+                                <h4>Alerale</h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Dukungan yang luar biasa!</h3>
+                                <p class="lead">Lingkungan yang kondusif dan nyaman untuk belajar dan mengembangkan bakat, serta menggali potensi diri</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/mila (1) (1).jpg" alt="" class="img-fluid">
+                                <h4>Mimiqis </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Pendidikan Terbaik!</h3>
+                                <p class="lead">Universitas nya sangat baik , menghasilkan lulusan lulusan terbaik, akreditasi nya sudah ‘A’ , Pokonya sangat di rekomendasikan untuk kalian yang ingin mempunya karir yang bagus setelah lulus sarjana</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/bita.jpg" alt="" class="img-fluid ">
+                                <h4>Tata Aurora </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Lingkungan dan Pertemanan yang sehat!</h3>
+                                <p class="lead">Selama berkuliah, saya mendapatkan ilmu yang dapat saya aplikasikan di dunia kerja saat ini. Usaha saya yang berkaitan dengan ilustrasi sangat terbantu dengan keahlian yang saya dapatkan di kampus. Selain itu, fasilitas yang memadai, lingkungan yang nyaman, dan teman-teman yang suportif membantu saya dalam mengembangkan minat dan bakat.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/irvan.jpg" alt="" class="img-fluid">
+                                <h4>Teuku Andi </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Mata Kuliah mudah dipahami!</h3>
+                                <p class="lead">Universitas Bina Liaris yang menurut saya universitas paling the best pokoknya,kating² nya juga ramah,dan mudah di pahami dalam matkul nya</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Tentang Universitas Bina Liaris</h3>
+                        </div>
+                        <p>Universitas Bina Liaris adalah kampus modern, komprehensif, terbuka, multi budaya, dan humanis yang mencakup disiplin ilmu yang luas.</p>
+                            
+                        <p>Universitas Bina Liaris saat ini secara simultan selalu berusaha menjadi salah satu universitas riset atau institusi akademik terkemuka di dunia. Sebagai universitas riset, upaya-upaya pencapaian tertinggi dalam hal penemuan, pengembangan dan difusi pengetahuan secara regional dan global selalu dilakukan.</p>   
+						<div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-github"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							</ul><!-- end links -->
+						</div>						
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Link Informasi</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#">Beranda</a></li>
+                            <li><a href="#">Blog</a></li>
+							<li><a href="#">Tentang Kami</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Detail Kontak</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">info@yoursite.com</a></li>
+                            <li><a href="#">www.yoursite.com</a></li>
+                            <li>PO Box 16122 Collins jalan khayangan menuju syurganya para bidadari</li>
+                            <li>+61 3 8376 6284</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Universitas Bina Liaris</a> Design By : <a>Hanya untuk projek UTS</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
